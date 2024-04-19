@@ -1,5 +1,4 @@
 appdirs==1.4.4
-
 astroid==2.12.5
 atomicwrites==1.4.1
 attrs==22.1.0
@@ -16,13 +15,9 @@ gunicorn==20.1.0
 Pillow==9.2.0
 psycopg2==2.9.3
 static3==0.7.0
-
-
-
 ﻿asgiref==3.6.0
 certifi==2023.5.7
 charset-normalizer==3.1.0
-
 idna==3.4
 psycopg2-binary==2.9.6
 requests==2.31.0
