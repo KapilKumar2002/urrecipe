@@ -4,24 +4,30 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name='Urecipe',
+            name="Urecipe",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('recipe_image1', models.ImageField(upload_to='pics')),
-                ('recipe_image2', models.ImageField(upload_to='pics')),
-                ('recipe_name', models.CharField(max_length=100)),
-                ('recipe_desc', models.TextField()),
-                ('recipe_ingredients', models.TextField()),
-                ('recipe_steps', models.TextField()),
-                ('date_added', models.DateTimeField(auto_now_add=True)),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("recipe_image1", models.ImageField(upload_to="pics")),
+                ("recipe_image2", models.ImageField(upload_to="pics")),
+                ("recipe_name", models.CharField(max_length=100)),
+                ("recipe_desc", models.TextField()),
+                ("recipe_ingredients", models.TextField()),
+                ("recipe_steps", models.TextField()),
+                ("date_added", models.DateTimeField(auto_now_add=True)),
             ],
         ),
     ]

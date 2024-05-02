@@ -4,15 +4,14 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('app', '0002_remove_urecipe_recipe_image2'),
+        ("app", "0002_remove_urecipe_recipe_image2"),
     ]
 
     operations = [
         migrations.AlterField(
-            model_name='urecipe',
-            name='recipe_desc',
+            model_name="urecipe",
+            name="recipe_desc",
             field=models.CharField(max_length=250),
         ),
     ]
